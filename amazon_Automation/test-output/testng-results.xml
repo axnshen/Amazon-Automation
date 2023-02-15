@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-14T13:58:10 IST" name="Default suite" finished-at="2023-02-14T13:58:32 IST" duration-ms="22021">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T13:58:10 IST" name="Default test" finished-at="2023-02-14T13:58:32 IST" duration-ms="22021">
+      <class name="testNG_TestCasses.PDPTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:10 IST" name="launchBrowser" finished-at="2023-02-14T13:58:13 IST" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:13 IST" name="createPOMObjects" finished-at="2023-02-14T13:58:13 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:13 IST" name="enterURL" finished-at="2023-02-14T13:58:18 IST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method signature="test1_VerifyTheProductTest()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:18 IST" name="test1_VerifyTheProductTest" finished-at="2023-02-14T13:58:31 IST" duration-ms="12915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_VerifyTheProductTest -->
+        <test-method is-config="true" signature="getBackToHomePage(org.testng.ITestResult)[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:31 IST" name="getBackToHomePage" finished-at="2023-02-14T13:58:32 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1_VerifyTheProductTest status=SUCCESS method=PDPTest.test1_VerifyTheProductTest()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBackToHomePage -->
+        <test-method is-config="true" signature="removeObjects()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:32 IST" name="removeObjects" finished-at="2023-02-14T13:58:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testNG_TestCasses.PDPTest@12e61fe6]" started-at="2023-02-14T13:58:32 IST" name="quitBrowser" finished-at="2023-02-14T13:58:32 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testNG_TestCasses.PDPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
